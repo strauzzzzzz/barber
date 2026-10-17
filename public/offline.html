@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#09090b" />
+    <title>Нет подключения</title>
+    <style>
+      :root { color-scheme: dark; }
+      body { margin: 0; min-height: 100dvh; display: grid; place-items: center; padding: 24px; box-sizing: border-box; text-align: center;
+        font: 400 16px/1.5 'Golos Text', system-ui, sans-serif; color: #f3f3f5; background: #09090b;
+        background-image: radial-gradient(60% 42% at 6% -4%, rgba(168,19,44,.17), transparent 72%), radial-gradient(55% 40% at 104% 104%, rgba(52,88,176,.14), transparent 72%); }
+      main { max-width: 360px; }
+      h1 { font-size: 22px; margin: 0 0 12px; }
+      p { color: #b6b6bf; margin: 0 0 24px; }
+      button { min-height: 48px; padding: 0 24px; border: 0; border-radius: 14px; background: #a8132c; color: #fff; font: 600 16px inherit; cursor: pointer; }
+      button:active { transform: scale(.97); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Нет подключения к интернету</h1>
+      <p>Приложение открылось из памяти телефона, но чат-помощник и запись работают только с сетью. Подключитесь к Wi-Fi или мобильному интернету и повторите.</p>
+      <button onclick="location.reload()">Повторить</button>
+    </main>
+  </body>
+</html>
