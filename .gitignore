@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+.env.local
+.vercel
+.claude
+.playwright-mcp
+*.log

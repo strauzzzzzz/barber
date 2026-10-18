@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><clipPath id="r"><rect width="512" height="512" rx="112"/></clipPath><g clip-path="url(#r)">
+  <defs>
+    <radialGradient id="g" cx="30%" cy="18%" r="75%"><stop offset="0" stop-color="#a8132c" stop-opacity=".55"/><stop offset="1" stop-color="#a8132c" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b" cx="100%" cy="100%" r="70%"><stop offset="0" stop-color="#3458b0" stop-opacity=".4"/><stop offset="1" stop-color="#3458b0" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="#09090b"/>
+  <rect width="512" height="512" fill="url(#g)"/><rect width="512" height="512" fill="url(#b)"/>
+  <svg x="52" y="52" width="408" height="408" viewBox="29 28 449 469"><defs>
+    <linearGradient id="steel-ic" gradientUnits="userSpaceOnUse" x1="244" y1="0" x2="294" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset=".5" stop-color="#cfd4dc"/><stop offset="1" stop-color="#7f8796"/></linearGradient>
+    <linearGradient id="red-ic" gradientUnits="userSpaceOnUse" x1="0" y1="250" x2="0" y2="450"><stop offset="0" stop-color="#e8274a"/><stop offset=".55" stop-color="#b3142e"/><stop offset="1" stop-color="#6e0c1e"/></linearGradient>
+    <linearGradient id="sheen-ic" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".95"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <radialGradient id="metal-ic" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="#fff"/><stop offset=".55" stop-color="#aeb4bf"/><stop offset="1" stop-color="#5b6270"/></radialGradient>
+    <clipPath id="bc-ic"><path d="M248 262 L255 14 C276 108 294 192 289 262 Z"/></clipPath>
+  </defs>
+  <g class="pose" transform="rotate(145 256 250)"><g class="rock"><g class="half a" transform="rotate(14 256 250)"><g>
+      <path d="M256 250 C250 316 232 352 206 374" stroke="url(#red-ic)" stroke-width="15" stroke-linecap="round" fill="none"/>
+      <circle cx="194" cy="406" r="40" fill="none" stroke="url(#red-ic)" stroke-width="15"/>
+      <path d="M162 396 A38 38 0 0 1 180 372" stroke="#fff" stroke-opacity=".55" stroke-width="4" stroke-linecap="round" fill="none"/>
+      <path class="blade" d="M248 262 L255 14 C276 108 294 192 289 262 Z" fill="url(#steel-ic)" stroke="rgba(10,10,14,.55)" stroke-width="1.6" stroke-linejoin="round"/>
+      <path d="M251.5 256 L255.4 34" stroke="#fff" stroke-width="2.4" stroke-linecap="round" opacity=".92" fill="none"/>
+      <path d="M279 250 C284 176 278 100 262 44" fill="none" stroke="#000" stroke-opacity=".18" stroke-width="2.2"/>
+      
+    </g></g><g class="half b" transform="rotate(-14 256 250)"><g transform="matrix(-1 0 0 1 512 0)">
+      <path d="M256 250 C250 316 232 352 206 374" stroke="url(#red-ic)" stroke-width="15" stroke-linecap="round" fill="none"/>
+      <circle cx="194" cy="406" r="40" fill="none" stroke="url(#red-ic)" stroke-width="15"/>
+      <path d="M162 396 A38 38 0 0 1 180 372" stroke="#fff" stroke-opacity=".55" stroke-width="4" stroke-linecap="round" fill="none"/>
+      <path class="blade" d="M248 262 L255 14 C276 108 294 192 289 262 Z" fill="url(#steel-ic)" stroke="rgba(10,10,14,.55)" stroke-width="1.6" stroke-linejoin="round"/>
+      <path d="M251.5 256 L255.4 34" stroke="#fff" stroke-width="2.4" stroke-linecap="round" opacity=".92" fill="none"/>
+      <path d="M279 250 C284 176 278 100 262 44" fill="none" stroke="#000" stroke-opacity=".18" stroke-width="2.2"/>
+      
+    </g></g>
+    <circle cx="256" cy="250" r="16" fill="url(#metal-ic)" stroke="#23232a" stroke-width="3"/>
+    <path d="M247.5 244 L264.5 256" stroke="#2f323b" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="250.5" cy="243.5" r="2.6" fill="#fff" opacity=".9"/>
+  </g>
+  </g></svg></g></svg>
